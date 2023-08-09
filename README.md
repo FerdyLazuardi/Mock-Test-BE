@@ -38,10 +38,10 @@ npm run dev
 ## Environment Variables
 To run this project, you will need to add the following environment variables to your .env file
 
-`DB_USERNAME` `DB_PASSWORD` `DB_NAME` `DB_HOST` `DB_PORT` `PORT` 
+`DB_USERNAME` `DB_PASSWORD` `DB_NAME` `DB_PORT` `PORT` 
 
 # Penjelasan Project To Dogs Apps
-To Dogs Apps merupakan web aplikasi to do list sederhana. User harus membuat akun terlebih dahulu, lalu login hanya dengan menggunakan pin 4 digit. 
+To Dogs Apps merupakan web aplikasi to do list sederhana. User harus membuat akun terlebih dahulu, lalu login hanya dengan menggunakan pin 4 digit. Di dalam aplikasi, user dapat membuat sebuah task. Task yang dibuat nantinya akan terdiri dari title task, dan deadlinenya. User juga dapat menchecklist tugas mereka jika merasa sudah dikerjakan. Selain itu User pun juga dapat menghapus task mereka, dan mengedit task mereka. Terakhir terdapat filter complete task dan juga incomplete task yang memudahkan user untuk melihat task mana yang belum dan sudah dikerjakan.
 
 ### Front end 
 dibuat dengan framework react dengan memanfaatkan build tools Vite Js. Selain itu pada project ini memanfaatkan framer motion untuk memberikan motion dan juga memakai react-hot-toast untuk memberikan notifikasi agar bisa meningkatkan user experience. Untuk deployment dilakukan menggunakan netlify
@@ -49,7 +49,7 @@ dibuat dengan framework react dengan memanfaatkan build tools Vite Js. Selain it
 ### Back end
 dibuat dengan framework express js untuk membuat servernya, dan menggunakan postgreSQL untuk membuat databasenya. Server dibuat dengan menggunkan metode MVC (model-view-controller). Terakhir untuk api docsnya dibuat dengan postman
 
-## Kegunaan JSON pada REST API?
+## Kegunaan JSON pada REST API
 JSON mempermudah pertukaran data dalam REST API dengan ukuran ringkas, kemudahan proses, dan kompatibilitas yang luas, selain itu JSON digunakan dalam REST API sebagai format pertukaran data antara client dan server. 
 
 ## REST API bekerja
