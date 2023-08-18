@@ -4,7 +4,6 @@ const router = require("express").Router();
 const User = require("../controller/userController");
 
 // middleware
-const Authentication = require("../middlewares/authenticate");
 
 // API auth
 router.post("/register", User.register);
